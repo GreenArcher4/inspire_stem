@@ -19,9 +19,5 @@ print ("The employee new salary is:", salary_inc )
 bonus_ded = 5000
 new_bonuses =  e_bonuses - bonus_ded
 
-
-print ("The employee name is:", e_name )
-print ("The employee age is:", e_age )
-print ("The employee salary is:", e_salary )
 print ("The employee new bonuses is:", new_bonuses)
-print ("The employee new salary is:", salary_inc )
+
