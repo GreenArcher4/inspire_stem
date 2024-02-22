@@ -15,7 +15,7 @@ print (city[-4]) #last character i
 #Convert to upper case
 
 print (city)
-print("\n\n") #prints you a new (double)line
+print("\n\n") #prints you a new (double)line <skips lines>
 print (city.upper ())
 
 name ="LORNA"
