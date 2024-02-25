@@ -14,4 +14,4 @@ for number in range(0,10):
 # square of numbers
 
 for x in range(0,11):
-    print(str(x**2) + "\t",end= "  ") #square
+    print(str(x**2) +'\t',end= "  ") #square
