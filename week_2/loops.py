@@ -15,3 +15,10 @@ for number in range(0,10):
 
 for x in range(0,11):
     print(str(x**2) +'\t',end= "  ") #square
+
+#Code to ptint name 5 times
+name = 'Lorna'
+
+for number in range(0,5):
+    print('\t')
+    print(name)

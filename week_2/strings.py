@@ -27,7 +27,7 @@ print('')
 
 #prints you a new (double)line <skips lines>
 print (city)
-print("\n\n") 
+print("\n") 
 
 #upper case
 print (city)
@@ -54,7 +54,7 @@ print ("\t")
 f_name = "Jason"
 s_name = "Todd"
 
-full_name = f_name +s_name
+full_name = f_name +'\t'+ s_name
 
 print(full_name)
 
@@ -73,7 +73,7 @@ print(subject)
 age = 30
 height = 1.72
 
-print("I am {0} years old and {1} meters tall".format(age,height))
+print("I am {1} years old and {0} meters tall".format(age,height))
 
 
 

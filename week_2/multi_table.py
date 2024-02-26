@@ -9,7 +9,7 @@ for n in range ( 1 , 11):
 #Full set
 # Multiplication table of numbers 1 - 9
 
-for col in range (1, 10):
+for col in range (1, 10):           
     for row in range (1, 10):
        print(row * col, end= '\t')
     print()
