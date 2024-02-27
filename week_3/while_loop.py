@@ -3,8 +3,17 @@
 # Name : Lorna 
 
 
-num = 10
+x= 1
 
-for i in range (1, num):
- while i<= 10:
-    print(i)
+while x <= 10 :
+   #if x== 6:
+      #break
+ 
+
+   if x== 6:
+      continue
+   x= x+1
+print(x)
+
+
+

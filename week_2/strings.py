@@ -69,13 +69,40 @@ subject = "Physical : sciences"
 print(subject.split(':'))
 print(subject)
 
-#print a numeric character in string
+#<format strings>
+#1.print a numeric character in string 
 age = 30
 height = 1.72
 
 print("I am {1} years old and {0} meters tall".format(age,height))
 
+#2.printing a string
+activity = "Dancing"
+print('\t')
+print("My hobby is %s" %( activity))
 
+#printing a float
+height = 1.3478445
+print('\t')
+print("My height is:%5.3f"% (height))
+
+#printing a integer
+age = 32
+print('\t')
+print("My age is:%d"% (age))
+
+
+# Counts the charaters in a string
+name = "Jason Todd"
+print('\t')
+print(len(name)) 
+print('\t')
+print(f'My full name is {name}')
+
+school="Engineering"
+course ="Electrical"
+
+print("I am studying {course} in the school of{school}".format(course ="Meds",school="Human sciences"))
 
 
 
