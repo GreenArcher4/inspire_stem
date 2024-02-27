@@ -1,4 +1,4 @@
-# Program that calculates pascals triangle
+# Program that calculates factorials of numbers
 # Date: 22/02/2024
 # Name : Lorna
 
@@ -10,12 +10,10 @@ print ("The factorial is :", math.factorial (n)) # This is a built in function u
 
 # Using for loop
 
-factorial = int(input("Enter the number whose factorial u want to find : "))
-n = 1
+factorial =  1
+n =  int (input("Enter the n : "))
 
-if factorial >=1:
-    for i in range (1, n+1):
+for i in range (1, n+1):
+ factorial = factorial * i
+ print ('The factorial is :', factorial)        
 
-        factorial_ans = factorial * i
-
-print ("The factorial is :", factorial_ans)        

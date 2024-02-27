@@ -1,5 +1,5 @@
 # sum of numbers
-# Date: 22/02/2024
+# Date: 26/02/2024
 # Name : Lorna 
 
 sum_nums = 0

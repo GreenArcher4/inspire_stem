@@ -1,4 +1,4 @@
-# factorials, odd, even
+# factorials, odd, even numers
 # Date: 26/02/2024
 # Name : Lorna
 
