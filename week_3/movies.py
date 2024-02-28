@@ -7,6 +7,7 @@ print (movies)
 
 #Remove last movie in list
 movies. pop()
+movies. pop()
 print('\n',movies)
 
 #Sort movies in list
