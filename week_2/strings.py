@@ -63,8 +63,8 @@ fruit = "orange"
 
 print(fruit.replace('o','Y'))
 
-#splitting a string
-subject = "Physical : sciences"
+#splitting a string using the punctuation between the values
+subject = "Physical , sciences"
 
 print(subject.split(':'))
 print(subject)
@@ -76,7 +76,7 @@ height = 1.72
 
 print("I am {1} years old and {0} meters tall".format(age,height))
 
-#2.printing a string
+#2.formatting a string
 activity = "Dancing"
 print('\t')
 print("My hobby is %s" %( activity))
@@ -95,7 +95,7 @@ print("My age is:%d"% (age))
 # Counts the charaters in a string
 name = "Jason Todd"
 print('\t')
-print(len(name)) 
+print(len(name))                         #counts characters in the value of name variable
 print('\t')
 print(f'My full name is {name}')
 

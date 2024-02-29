@@ -6,14 +6,12 @@
 x= 1
 
 while x <= 10 :
-   #if x== 6:
-      #break
- 
-
    if x== 6:
-      continue
+      break
+   #if x== 6:   # prints numbers until 6
+      #continue
    x= x+1
-print(x)
+   print(x)
 
 
 
