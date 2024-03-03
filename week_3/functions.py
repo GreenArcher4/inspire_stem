@@ -26,7 +26,7 @@ print_details("Vincent ","21","309124","male")
 #sum of numbers
 
 def sum_nums(x,y):
-    return x+y
+   return  x+y
 
 z = sum_nums(10,20)
 print(z)
@@ -35,3 +35,9 @@ def prod_nums(x,y):
     return x*y
 
 print(prod_nums(5,79))
+
+def print_odds( first_no, second_no):
+    for x in range( first_no, second_no):
+        print ()
+print_odds(1,15)
+
