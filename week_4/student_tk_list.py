@@ -1,3 +1,4 @@
+from tkinter import *
 import tkinter as tk
 
 
@@ -17,6 +18,7 @@ def submit():
 
 window = tk.Tk()
 window.title("Student Data Entry Form ")
+window.configure(bg= "sky blue") #adding colour
 
 frame= tk.Frame(window)
 frame.pack()
@@ -24,6 +26,7 @@ frame.pack()
 #Saving user info
 student_info_frame = tk.LabelFrame(frame, text="Student info") #parent is frame
 student_info_frame.grid(row=0, column = 0, padx= 20, pady= 20)
+student_info_frame.configure(bg= "beige")
 
 first_name_label = tk.Label(student_info_frame, text ="First Name")            # parent is student info
 first_name_label.grid(row=0, column = 0)
@@ -42,16 +45,16 @@ age_label.grid(row=2, column = 0)
 age_entry =tk.Entry(student_info_frame)
 age_entry.grid(row=2, column = 1)
 
-button = tk.Button(window , text="Submit", command = submit, font=("Times New Roman", 14 ) )
+
+button = tk.Button(window, text="Submit", command = submit, font=("Times New Roman", 14 ) )
 button.pack(padx=15, pady=15)
-
-
-
+button.configure(bg="light green")
 
 
 for widget in student_info_frame.winfo_children():  # to space up the grids for data entry
     widget.grid_configure(padx= 10, pady = 5)
+    
 
-
+    
 
 window.mainloop()
